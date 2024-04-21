@@ -1,1 +1,1 @@
-export const BACKEND_URL="https://medium-backend.bhanavigoyal.workers.dev/"
+export const BACKEND_URL="https://medium-backend.bhanavigoyal.workers.dev"
