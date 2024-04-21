@@ -38,7 +38,7 @@ export const CreateBlog=()=>{
         <div className="pt-8 w-80 md:w-[45rem]">
             <TextEdit type="title" onSave={handleTitleChange}/>
         </div>
-        <div className="w-80 md:w-[45rem] pt-6">
+        <div className="w-80 md:w-[45rem] ">
             <TextEdit type="content" onSave={handleContentChange}/>
         </div>
         </div>

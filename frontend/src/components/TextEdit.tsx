@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.bubble.css';
-import 'react-quill/dist/quill.snow.css';
 
 export const TextEdit=({type, onSave}:{type:'title'|'content', onSave:(value:string)=>void})=> {
     const [editorValue, setEditorValue] = useState('');
@@ -41,7 +40,7 @@ export const TextEdit=({type, onSave}:{type:'title'|'content', onSave:(value:str
                 ['link']    
             ]
           }}
-          theme={type==='title'?'bubble':'snow'}
+          theme="bubble"
           placeholder={placeholder}
       />
     );
